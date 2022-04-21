@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class ikiUssuYazdirma {
-static int i;
 	public static void main(String[] args) {
 		
 	//girilen sayıya kadar 2'nin kuvvetlerini yazdıracağız
@@ -12,7 +11,7 @@ static int i;
 	int input = scn.nextInt();
 	
 	//döngümüzü kuruyoruz ve konsola yazdırıyoruz.
-	for(i=1;i<=input;i*=2){
+	for(int i=1;i<=input;i*=2){
 		System.out.println(i);
 		scn.close();//veri girişini kapatıyoruz.
 	}
