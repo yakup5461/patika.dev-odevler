@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class recursiveAsalSayıBulma {
 	
-	private static int asalmi(int sayi, int i) {
-	        if (i==1){return 1;}
+private static int asalmi(int sayi, int i) {
+//bu metodda girilen sayının yarısından başlanarak tam bölünüp bölünmediğine bakılıyor. ve kontrol saonucu döndürülüyor.
+	   if (i==1){return 1;}
 	        else {
 	            if (sayi%i==0){return 0;}
 	            else return asalmi(sayi,i-1);}
